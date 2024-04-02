@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dataadding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE103511"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".addfrag">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="570dp"
+    android:layout_marginTop="70dp"
+    android:background="@drawable/white_background">
+
+
+    <EditText
+        android:id="@+id/addid"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="Enter product id"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="32dp"
+        android:textSize="25dp"
+        android:textColor="#FFF9C4"/>
+
+    <EditText
+        android:id="@+id/addname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter product name"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="222dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/addcourse"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter product price"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="299dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/addlocation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="362dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:popupBackground="#81C784"
+            android:dropDownWidth="match_parent"
+            android:dropDownVerticalOffset="60dp"
+            android:dropDownHorizontalOffset="0dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="-300dp"
+            android:background="#D8E6EFDF"
+            android:layout_marginTop="422dp"
+
+            />
+</LinearLayout>
+    <Button
+        android:id="@+id/dataadd"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FBFBFB"
+        android:gravity="center"
+        android:onClick="process"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="Add Data" />
+
+    <FrameLayout
+        android:id="@+id/screen5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

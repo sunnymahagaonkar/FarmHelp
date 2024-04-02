@@ -1,0 +1,102 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    android:backgroundTint="@color/green2"
+    app:cardUseCompatPadding="true">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/termarind" />
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green2"
+        android:padding="15dp" android:layout_marginLeft="120dp"
+        >
+
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="This is Demo Name"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="This is course Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/product_name"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:text="This is course"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="4dp"
+            android:textColor="#000"
+            android:layout_below="@+id/price"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeperiod"
+            android:text="This is time"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/price"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_height="17dp"
+            app:srcCompat="@drawable/rupee_indian"/>
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="20dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_height="17dp"
+            app:srcCompat="@drawable/map_1865269" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="108dp"
+            app:srcCompat="@drawable/clock_1790027" />
+
+        <Button
+            android:id="@+id/removeitembutton"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="117dp"
+            android:width="150dp"
+            android:backgroundTint="@color/red"
+            android:text="Remove"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
